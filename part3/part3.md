@@ -1,8 +1,8 @@
 ![debugger](debugger.png "Debugger")
 ![watch](watch.png "Watch")
 
-⋅⋅*The bug was that the input type of num1 and num2 is string. So the + in the function is actually doing a string concatenation of num1 and num2. Thus, the type of result is a string with num1 following with num2.
-⋅⋅*I would fix it with changing the type of num1 and num2 before calculating their sum.
+The bug was that the input type of num1 and num2 is string. So the + in the function is actually doing a string concatenation of num1 and num2. Thus, the type of result is a string with num1 following with num2. <br>
+I would fix it with changing the type of num1 and num2 before calculating their sum.<br>
 
 ```javascript
 function calculateSum(num1, num2) {
